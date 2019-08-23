@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.example.demo</groupId>
+  <artifactId>cloudParent</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>cloudParent</name>
+  <description>微服务架构父模块管理</description>
+
+  <!-- 模块说明：这里声明多个子模块 -->
+  <modules>
+	<module>eurekaServer</module>
+	<module>client</module>
+	<module>consulClient</module>
+	<module>consumer</module>
+	<module>ribbonConsumer</module>
+	<module>feignConsumer</module>
+  </modules>
+
+</project>

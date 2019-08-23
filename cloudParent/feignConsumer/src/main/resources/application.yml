@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: eureka-feign-consumer
+server:
+  port: 2103
+eureka:
+#  instance:
+#    prefer-ip-address: true
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1001/eureka/

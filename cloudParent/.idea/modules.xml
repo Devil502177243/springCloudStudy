@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/client/client.iml" filepath="$PROJECT_DIR$/client/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudParent.iml" filepath="$PROJECT_DIR$/cloudParent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consulClient/consulClient.iml" filepath="$PROJECT_DIR$/consulClient/consulClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consumer/consumer.iml" filepath="$PROJECT_DIR$/consumer/consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaServer/eurekaServer.iml" filepath="$PROJECT_DIR$/eurekaServer/eurekaServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feignConsumer/feignConsumer.iml" filepath="$PROJECT_DIR$/feignConsumer/feignConsumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ribbonConsumer/ribbonConsumer.iml" filepath="$PROJECT_DIR$/ribbonConsumer/ribbonConsumer.iml" />
+    </modules>
+  </component>
+</project>
